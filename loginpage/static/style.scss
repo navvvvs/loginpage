@@ -1,5 +1,5 @@
 // Variables
-$primary-color: #007bff; /* Corrected to valid 6-character hex color */
+$primary-color: #007bff; 
 $primary-hover-color: #005663;
 $secondary-color: #283745;
 $secondary-hover-color: #218838;
@@ -62,7 +62,4 @@ main{
         color: $subtext-color;
         margin-bottom: 20px;
     }
-
-
-
 }
