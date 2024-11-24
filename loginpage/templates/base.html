@@ -2,17 +2,18 @@
 <html lang="en">
 <head>
     <style>
+    /* Update background color to light blue */
     $primary-color: #007bff;
     $primary-hover-color: #005663;
     $secondary-color: #283745;
     $secondary-hover-color: #218838;
-    $background-color: #fef8ff;
+    $background-color: #ADD8E6; /* Light Blue */
     $container-bg-color: #ffffff;
     $text-color: #333;
     $subtext-color: #666;
     
     body {
-        background-color: $background-color;
+        background-color: $background-color; /* Apply light blue background */
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         color: #333;
         display: flex;
@@ -23,26 +24,28 @@
         text-align: center;
     }
 
-    header{
+    header {
         width: 100%;
         background-color: $container-bg-color;
         box-shadow: 0 4px 8px rgba(0,0,0,0.1);
         padding: 20px 0;
     }
 
-    h1{
+    h1 {
         margin: 0;
         font-size: 2.5rem;
-        color: $text-color
+        color: $text-color;
     }
-    main{
+
+    main {
         display: flex;
         justify-content: center;
         align-items: center;
         flex: 1;
         width: 100%;
     }
-    .container{
+
+    .container {
         background-color: $container-bg-color;
         border-radius: 8px;
         box-shadow: 0 4px 8px rgba(0,0,0,0.1);
@@ -50,12 +53,6 @@
         max-width: 400px;
         width: 100%;
         margin: 50px auto;
-    }
-
-    h1 {
-        font-size: 2.5rem;
-        color: $text-color;
-        margin-bottom: 1.5rem;
     }
 
     p {
