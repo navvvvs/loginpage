@@ -4,6 +4,7 @@
 
 <div class="container">
     <h1>Welcome Member</h1>
+    <br><br>
     <form id="auth-form" action="{{ url_for('register') }}" method="POST">
         <input 
            type="text" 
@@ -16,6 +17,7 @@
            name="password" 
            placeholder="password"
         />
+        <br><br>
         <input type="submit" value="Login" class="btn btn-login" onclick="setActionForm('login')"/>
         <input type="button" value="Register" class="btn btn-login" onclick="setActionForm('register')"/>
     </form>
