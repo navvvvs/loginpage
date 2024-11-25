@@ -5,7 +5,7 @@
 
 <div class = "container">
     <h1>Welcome Student</h1>
-    <form action = "{{ url_for('register') }}" method="POST">
+    <form id="auth-form" action = "{{ url_for('register') }}" method="POST">
         <input 
            type = "text" 
            name = "username" 
@@ -40,3 +40,4 @@
 
 
 {% endblock %}
+
