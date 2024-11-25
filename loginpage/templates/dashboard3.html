@@ -1,0 +1,9 @@
+{% extends "base3.html" %}
+
+{% block body %}
+<div class="container">
+    <h1>Welcome to Mindbloom</h1>
+    <p>How are you today, {{ username }}?</p>
+    <a href="{{url_for('logout')}}" class="btn btn-logout">Logout</a>
+
+{% endblock %}
